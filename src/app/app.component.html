@@ -1,0 +1,103 @@
+
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <img
+    width="25"
+    alt="Angular Logo"
+    src="favicon.ico"
+  />
+  <span>TESLACK</span>
+    <div class="spacer"></div>
+
+<!--Badge-->
+<p>
+  Back to Home
+  <mat-icon matBadge="15" matBadgeColor="warn">home</mat-icon>
+    <span class="cdk-visually-hidden">
+      Example with a home icon with overlaid badge showing the number 15
+    </span>
+</p>
+
+
+<!--Menu-->
+<button mat-icon-button [matMenuTriggerFor] ="menu" aria-label="Example icon-button with a menu">
+  <mat-icon>more_vert</mat-icon>
+</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <mat-icon>dialpad</mat-icon>
+      <span>Redial</span>
+    </button>
+    <button mat-menu-item disabled>
+      <mat-icon>voicemail</mat-icon>
+      <span>Check voice mail</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>notifications_off</mat-icon>
+      <span>Disable alerts</span>
+    </button>
+  </mat-menu>
+ <div class="Boton">
+  <button mat-raised-button>Login</button>
+</div>
+</div>
+
+<mat-form-field></mat-form-field>
+
+
+
+<div class="content" role="main">
+
+<!--Title Login-->
+<div class="title">
+<h1>Teslack</h1>
+</div>
+
+ <mat-form-field></mat-form-field>
+
+  <!--Form-Field-->
+<div class = "test">
+  <mat-form-field>
+    <input matInput placeholder="User">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Password">
+  </mat-form-field>
+
+<mat-form-field></mat-form-field>
+  
+</div>
+<!--Botton-->
+<div class="example-button-row">
+  <button mat-raised-button>Login</button>
+</div>
+<mat-form-field></mat-form-field>
+
+  <!-- Links -->
+  <div class="card-container">
+
+    <a class="circle-link" title="Github" href="https://github.com/castillag18/" target="_blank" rel="noopener">
+      <svg alt="Github" width="21.762" height="23.447" viewBox="0 0 21.762 23.447">
+        <g id="Group_21" data-name="Group 21" transform="translate(0)">
+          <path id="Path_20" data-name="Path 20" d="M2660.313,313.618h0l-10.833,3.9,1.637,14.4,9.2,5.152,9.244-5.152,1.685-14.4Z" transform="translate(-2649.48 -313.618)" fill="#37474f"/>
+          <path id="Path_21" data-name="Path 21" d="M2741.883,313.618v23.447l9.244-5.152,1.685-14.4Z" transform="translate(-2731.05 -313.618)" fill="#263238"/>
+          <path id="Path_22" data-name="Path 22" d="M2692.293,379.169h11.724V368.618h-11.724Zm11.159-.6h-10.608v-9.345h10.621v9.345Z" transform="translate(-2687.274 -362.17)" fill="#fff"/>
+          <path id="Path_23" data-name="Path 23" d="M2709.331,393.688l.4.416,2.265-2.28-2.294-2.294-.4.4,1.893,1.893Z" transform="translate(-2702.289 -380.631)" fill="#fff"/>
+          <rect id="Rectangle_12" data-name="Rectangle 12" width="3.517" height="0.469" transform="translate(9.709 13.744)" fill="#fff"/>
+        </g>
+      </svg>
+    </a>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+      Love Teslack?&nbsp;
+      <a href="https://github.com/" target="_blank" rel="noopener"> Accede a  nuestro github.
+      </a>
+      
+  </footer>
+
+<router-outlet></router-outlet>
