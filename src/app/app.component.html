@@ -1,5 +1,3 @@
-
-
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
   <img
@@ -7,75 +5,50 @@
     alt="Angular Logo"
     src="favicon.ico"
   />
-  <span>TESLAC</span>
+  <a href="http://localhost:4200/" rel="noopener">
+  <span>TESLAC</span></a>
     <div class="spacer"></div>
 
-<!--Badge-->
-<p>
-  Back to Home
-  <mat-icon matBadge="15" matBadgeColor="warn">home</mat-icon>
-    <span class="cdk-visually-hidden">
-      Example with a home icon with overlaid badge showing the number 15
-    </span>
-</p>
-
-
-<!--Menu-->
-<button mat-icon-button [matMenuTriggerFor] ="menu" aria-label="Example icon-button with a menu">
-  <mat-icon>more_vert</mat-icon>
-</button>
-  <mat-menu #menu="matMenu">
-    <button mat-menu-item>
-      <mat-icon>dialpad</mat-icon>
-      <span>Redial</span>
-    </button>
-    <button mat-menu-item disabled>
-      <mat-icon>voicemail</mat-icon>
-      <span>Check voice mail</span>
-    </button>
-    <button mat-menu-item>
-      <mat-icon>notifications_off</mat-icon>
-      <span>Disable alerts</span>
-    </button>
-  </mat-menu>
  <div class="Boton">
   <button mat-raised-button>Sign up</button>
 </div>
 </div>
 
-<mat-form-field></mat-form-field>
-
 
 
 <div class="content" role="main">
 
+<!--Card-->
+<mat-card class="card" class="MatFormFieldControl">
 <!--Title Login-->
 <div class="title">
-<h1>Teslac</h1>
+  <h1>Teslac</h1>
 </div>
 
  <mat-form-field></mat-form-field>
-
   <!--Form-Field-->
 <div class = "test">
   <mat-form-field>
-    <input matInput placeholder="User">
+    <input matInput placeholder="User" required>
   </mat-form-field>
 
-  <mat-form-field>
-    <input matInput placeholder="Password">
+  <mat-form-field >
+    <input matInput placeholder="Password" required>
   </mat-form-field>
 
-<mat-form-field></mat-form-field>
-  
-</div>
-<!--Botton-->
-<div class="example-button-row">
+  <mat-form-field></mat-form-field>
+<div class="button">
   <button mat-raised-button>Login</button>
 </div>
-<mat-form-field></mat-form-field>
+</div>
+</mat-card>
 
-  <!-- Links -->
+<mat-form-field></mat-form-field>
+<!--Botton-->
+
+
+
+  <!--Link-->
   <div class="card-container">
 
     <a class="circle-link" title="Github" href="https://github.com/castillag18/" target="_blank" rel="noopener">
