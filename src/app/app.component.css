@@ -22,7 +22,7 @@
   margin: 0px;
   display: flex;
   align-items: center;
-  background-color:#a1af1f;
+  background-color:#60026d;
   color: white;
   font-weight: 600;
 }
@@ -285,17 +285,18 @@ svg#clouds {
   margin-right: auto;
   margin-left: auto;
   display: block;
-  background-color: #a1af1f;
+  background-color: rgb(216, 145, 224);
 }
 
 .Boton{
   margin-right: 1%;
-  
+  background-color: rgb(216, 145, 224);
 }
 
-.card{
+.card1 .MatFormFieldControl{
   max-width: 500px;
   max-height: 50px;
+
 }
 
 .image{
